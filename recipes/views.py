@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    return HttpResponse('Home')
+    return render(request, 'home.html')
 
 
 def sobre(request):
