@@ -16,7 +16,9 @@ Including another URLconf
 #from xml.etree.ElementInclude import include
 
 from django.contrib import admin
-from recipes.urls import include, path
+from django.urls import include, path
+
+#from recipes.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
